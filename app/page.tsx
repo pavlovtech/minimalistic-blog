@@ -2,8 +2,6 @@ export const runtime = 'edge';
 import { allPosts } from '@/.contentlayer/generated';
 import { PostCard } from '@/components/post-card';
 import { compareDesc } from 'date-fns';
-import { Analytics } from '@vercel/analytics/react';
-
 
 export default function Home() {
   const posts = allPosts.sort((a, b) =>
@@ -17,7 +15,6 @@ export default function Home() {
       {posts.map((post, idx) => (
         <PostCard key={idx} {...post} />
       ))}
-      <Analytics />
     </div>
   );
 }
