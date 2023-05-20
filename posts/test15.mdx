@@ -1,0 +1,74 @@
+---
+title: My First Post
+date: 2021-12-24
+description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
+tags:
+  - note-taking
+---
+
+## Table of contents
+
+## Test
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+
+## Test 2
+
+[google](https://google.com)
+
+## Test 3
+
+* One
+* Two
+* Three
+
+## Test 4
+
+
+```js
+// Optimized implementation of bubble sort Algorithm
+
+function bubbleSort(arr) {
+
+	var i, j;
+	var len = arr.length;
+
+	var isSwapped = false;
+
+	for (i = 0; i < len; i++) {
+
+		isSwapped = false;
+
+		for (j = 0; j < len; j++) {
+			if (arr[j] > arr[j + 1]) {
+				var temp = arr[j]
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+				isSwapped = true;
+			}
+		}
+
+		// IF no two elements were swapped
+		// by inner loop, then break
+		if (!isSwapped) {
+			break;
+		}
+	}
+
+	// Print the array
+	console.log(arr)
+}
+
+var arr = [243, 45, 23, 356, 3, 5346, 35, 5];
+
+// calling the bubbleSort Function
+bubbleSort(arr)
+```
+
+## Test 4
+
+| **Name** | **Email** | **Role** | **Age** | **Project** |
+|----------|-----------|----------|---------|-------------|
+| Joe      | Doe       | Test     | Test    | Test        |
+| Test     | Test      | Test     | Test    | Test        |
+| Test     | Test      | Test     | Test    | Test        |
