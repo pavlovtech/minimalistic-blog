@@ -21,7 +21,7 @@ export function PostCard(post: Post) {
       </div>
       <div>
         {post.tags?.map(t =>
-          <Badge key={t}>
+          <Badge className="mt-2" variant={"secondary"} key={t}>
             <Link href={`/tags/${t}`}>
               {t}
             </Link>
