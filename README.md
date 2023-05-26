@@ -11,6 +11,13 @@ You can check out the demo [here](https://awesome-blog.vercel.app/)
 
 ![image](https://github.com/pavlovtech/awesome-blog/assets/6662454/56f77df3-54b0-42f0-81f0-a670fe5a4a24)
 
+## Features
+
+- Static content generation based on markdown files (./posts folder)
+- Comments with Giscus
+- Code hightlighting
+- Frontmatter support
+
 ## Getting Started
 
 First, install dependencies run the development server:
