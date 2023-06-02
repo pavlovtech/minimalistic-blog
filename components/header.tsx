@@ -21,7 +21,7 @@ export function Header() {
     <header className="p-8 flex justify-center">
       <div>
         <Link href="/" className="inline-flex justify-center items-center">
-          <span className="font-bold text-3xl">Awesome Blog</span>
+          <span className="font-bold text-3xl">Minimalistic Blog</span>
         </Link>
       </div>
 

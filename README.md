@@ -7,9 +7,9 @@ Used tech:
 
 # Demo
 
-You can check out the demo [here](https://awesome-blog.vercel.app/)
+You can check out the demo [here](https://minimalistic-blog.vercel.app/)
 
-![image](https://github.com/pavlovtech/awesome-blog/assets/6662454/56f77df3-54b0-42f0-81f0-a670fe5a4a24)
+![image](https://github.com/pavlovtech/minimalistic-blog/assets/6662454/56f77df3-54b0-42f0-81f0-a670fe5a4a24)
 
 ## Features
 
