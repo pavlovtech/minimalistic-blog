@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 import { allPosts } from '@/.contentlayer/generated';
 import { PostCard } from '@/components/post-card';
 import { compareDesc } from 'date-fns';

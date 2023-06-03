@@ -1,5 +1,4 @@
-export const runtime = 'edge';
-import { compareDesc, format, parseISO } from 'date-fns'
+import { compareDesc } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 import '../../prism.css';
 import { PostCard } from '@/components/post-card';
